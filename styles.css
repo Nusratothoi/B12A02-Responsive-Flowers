@@ -1,16 +1,17 @@
-*{
-  font-family: 'Inter', 'Noto Serif' ;
+body {
+  background-color: #F5F8FF;
+  width: auto;
+  height: auto;
 }
+body { font-family: 'Inter', sans-serif; }
+.title-font { font-family: 'Noto Serif', serif; }
 
-:root {
-  --bg-color: #F5F8FF;
-  --primary-font: 'Inter';
-  --heading-font: 'Noto Serif';
-  --text-nav: 2rem;
-
+.news-letter {
+  
+  justify-content: center;
+  align-items: center;
+  background-image: url("assets/news-letter-bg.png");
 }
-
-.nav-menu {
-  list-style: none;
-  margin-right: 3rem;
+.news-letter h3{
+  font-size: xx-large;
 }
